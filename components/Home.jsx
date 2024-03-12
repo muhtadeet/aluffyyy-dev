@@ -1,13 +1,9 @@
 import { Tooltip } from "@nextui-org/react";
-import Taron from "../public/taron.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import FramerMgBtn from "./FramerMgBtn";
 import { useRef } from "react";
-import Image from "next/image";
 import { FileText } from "lucide-react";
-import Phone from "./Phone";
 import Card3d from "./ui/Card3d";
-import AboutText from "./AboutText";
 
 const variants = {
   initial: {
@@ -57,10 +53,10 @@ export default function Home() {
   const smx = useTransform(scrollYProgress, [0, 1], [0, -200]);
   return (
     <>
-      <div className="flex flex-col xl:mt-10 xl:pt-10 sm:mt-24 md:mt-12 md:h-screen md:-mb-80 xl:h-full justify-center xl:-mb-56">
+      <div className="flex flex-col h-dvh xl:mt-0 xl:pt-10 sm:mt-24 md:mt-12 md:h-screen md:-mb-80 xl:h-[100vh] justify-center xl:-mb-56 bg-gradient-to-bl from-[#6A43C4] from-10% to-[#BC97FC] to-80%">
         <motion.div
           ref={container}
-          className="absolute flex items-end translate-x-[60vw] md:translate-x-[75vw] md:m-5 xl:translate-x-[80vw] mt-[850px] sm:mt-0 xl:m-4 rotate-90"
+          className="absolute flex items-end translate-x-[60vw] md:translate-x-[75vw] md:m-5 xl:translate-x-[80vw] mt-[650px] sm:mt-0 xl:m-4 xl:mt-52 rotate-90"
         >
           <motion.p
             style={{ x: smx }}
@@ -96,7 +92,7 @@ export default function Home() {
           viewport={{
             once: true,
           }}
-          className="flex flex-col gap-5 mt-[500px] ml-7 sm:mt-0 sm:ml-0 md:justify-center md:m-1 xl:m-5 z-20 sm:z-0 xl:justify-center absolute"
+          className="flex flex-col gap-5 mt-[200px] ml-7 sm:mt-0 sm:ml-0 md:justify-center md:m-1 xl:m-5 xl:ml-20 z-20 sm:z-0 xl:mt-32 xl:justify-center absolute"
         >
           <FramerMgBtn>
             <Tooltip showArrow={true} placement="right" content="LinkedIn">

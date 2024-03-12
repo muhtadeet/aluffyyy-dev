@@ -18,7 +18,7 @@ export default function Contact() {
         ref={container}
         style={{ y: sm }}
         id="contact"
-        className="h-unit-7xl md:h-unit-18 xl:h-96 xl:mt-20 ml-5 sm:ml-0 flex flex-row justify-around"
+        className="h-unit-8xl md:h-unit-18 xl:h-96 xl:mt-20 ml-5 sm:ml-0 flex flex-row justify-around"
       >
         <motion.div style={{ y: smx }} className="flex flex-col">
           <h3 className="mt-72 text-6xl md:text-8xl xl:text-9xl md:mt-20 xl:mt-36 font-generalSans text-white">

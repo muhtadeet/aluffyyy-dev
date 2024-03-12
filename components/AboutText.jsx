@@ -28,7 +28,7 @@ function AboutText() {
     <div
       ref={container}
       style={{ y: sm }}
-      className="flex justify-center relative items-center mb-32 bg-transparent"
+      className="flex justify-center relative items-center mt-20 mb-20 sm:mt-0 sm:mb-32 bg-transparent"
     >
       <div className="flex flex-col w-unit-5xl md:w-unit-9xl xl:w-unit-9xl">
         <motion.p
@@ -38,7 +38,7 @@ function AboutText() {
           viewport={{
             once: true,
           }}
-          className=" text-[#fafafa] md:p-5 xl:p-5 pt-10 md:pt-20 xl:pt-36 xl:-my-10 text-3xl md:text-5xl xl:text-6xl font-ubuntu"
+          className=" text-[#fafafa] md:p-5 xl:p-5 pt-10 md:pt-20 xl:pt-36 xl:-my-10 text-2xl text-center sm:text-left md:text-5xl xl:text-6xl font-ubuntu"
         >
           Hey there, I&apos;m Mustakim Islam Alif
         </motion.p>
@@ -49,7 +49,7 @@ function AboutText() {
           viewport={{
             once: true,
           }}
-          className=" text-[#fafafa] w-unit-6xl md:w-unit-9xl md:p-5 xl:p-5 pt-5 md:pt-5 xl:pt-20 xl:-my-10 text-base md:text-lg xl:text-lg max-w-5xl font-lato"
+          className=" text-[#fafafa] w-unit-6xl md:w-unit-9xl md:p-5 xl:p-5 pt-5 md:pt-5 xl:pt-20 xl:-my-10 -ml-7 sm:ml-0 text-sm text-center sm:text-left md:text-lg xl:text-lg max-w-5xl font-lato"
         >
           Master of Cross-Platform and Native Development: Fluent in Kotlin
           Compose and Flutter. Bridging the gap between platforms, delivering

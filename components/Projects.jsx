@@ -16,16 +16,13 @@ export default function Projects() {
 
   return (
     <>
-      <div className=""></div>
       <motion.div
+        id="projects"
         ref={container}
         style={{ y: sm }}
-        className="mt-56 pt-10 bg-[#FA939F]"
+        className="mt-0 sm:mt-56 pt-10 bg-[#FA939F]"
       >
-        <p
-          id="projects"
-          className="text-3xl sm:text-5xl text-white pt-72 -mb-40 sm:pt-20 sm:-mb-36 md:-mb-0 flex justify-center md:justify-center font-bold font-ubuntu text-foreground/80 mt-3"
-        >
+        <p className="text-3xl sm:text-5xl text-white pt-10 mb-20 sm:pt-20 sm:-mb-36 md:-mb-0 flex justify-center md:justify-center font-bold font-ubuntu text-foreground/80 mt-3">
           Projects ✨
         </p>
 

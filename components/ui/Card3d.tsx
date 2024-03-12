@@ -5,7 +5,7 @@ import AboutText from "../AboutText";
 
 const Card3d = () => {
   return (
-    <div className="grid w-full place-content-center bg-gradient-to-br from-indigo-500 to-violet-500 px-4 py-12 text-slate-900">
+    <div className="grid w-full place-content-center px-4 py-12 text-slate-900">
       <TiltCard />
     </div>
   );
@@ -45,7 +45,7 @@ const TiltCard = () => {
   };
 
   return (
-    <div className="flex flex-row justify-center items-center gap-x-10">
+    <div className="flex flex-col sm:flex-row justify-center items-center sm:gap-x-10">
       <AboutText />
       <motion.div
         ref={ref}

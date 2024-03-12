@@ -98,7 +98,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-white transition-all ease-in-out duration-500 group-hover:text-[#6A43C4] md:text-6xl"
+          className="relative z-10 block text-2xl sm:text-4xl font-bold my-2 text-white transition-all ease-in-out duration-500 group-hover:text-[#6A43C4] md:text-6xl"
         >
           {heading.split("").map((l, i) => (
             <motion.span
@@ -114,7 +114,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
             </motion.span>
           ))}
         </motion.span>
-        <span className="relative block mt-2 text-base text-white transition-all ease-in-out group-hover:text-[#6A43C4] z-[99999]">
+        <span className="relative block mt-2 text-xs sm:text-base text-white transition-all ease-in-out group-hover:text-[#6A43C4] z-[99999]">
           {subheading}
         </span>
       </div>
@@ -133,7 +133,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
         }}
         transition={{ type: "spring" }}
         src={imgSrc}
-        className="absolute h-24 w-32 rounded-lg object-cover md:h-60 z-[99999999] md:w-28 ml-20"
+        className="absolute h-44 w-20 rounded-lg object-cover md:h-60 z-[99999999] md:w-28 sm:ml-20"
         alt={`Image representing a link for ${heading}`}
       />
 
