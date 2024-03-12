@@ -95,38 +95,22 @@ export default function Home() {
           className="flex flex-col gap-5 mt-[200px] ml-7 sm:mt-0 sm:ml-0 md:justify-center md:m-1 xl:m-5 xl:ml-20 z-20 sm:z-0 xl:mt-32 xl:justify-center absolute"
         >
           <FramerMgBtn>
-            <Tooltip showArrow={true} placement="right" content="LinkedIn">
+            <Tooltip showArrow={true} placement="right" content="CV">
               <motion.a
                 data-cursor-size="100px"
                 data-cursor-exclusion
                 data-cursor-color="#004EA3"
                 id="stick-title"
                 variants={items}
+                whileInView="animate"
                 viewport={{
                   once: true,
                 }}
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/alifisalu/"
+                href="./Mustakim_Islam_Alif.pdf"
+                download
+                className="text-[#FFFFFE] hover:text-[#FA939F] font-lato font-black"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="tabler-icon tabler-icon-brand-linkedin transition ease-in-out hover:stroke-[#FA939F] stroke-[#FFFFFE]"
-                >
-                  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
-                  <path d="M8 11l0 5"></path>
-                  <path d="M8 8l0 .01"></path>
-                  <path d="M12 16l0 -5"></path>
-                  <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                </svg>
+                <FileText className="ml-1" />
               </motion.a>
             </Tooltip>
           </FramerMgBtn>
@@ -164,22 +148,38 @@ export default function Home() {
             </Tooltip>
           </FramerMgBtn>
           <FramerMgBtn>
-            <Tooltip showArrow={true} placement="right" content="CV">
+            <Tooltip showArrow={true} placement="right" content="LinkedIn">
               <motion.a
                 data-cursor-size="100px"
                 data-cursor-exclusion
                 data-cursor-color="#004EA3"
                 id="stick-title"
                 variants={items}
-                whileInView="animate"
                 viewport={{
                   once: true,
                 }}
-                href="./Mustakim_Islam_Alif.pdf"
-                download
-                className="text-[#FFFFFE] hover:text-[#FA939F] font-lato font-black"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/alifisalu/"
               >
-                <FileText className="ml-1" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="tabler-icon tabler-icon-brand-linkedin transition ease-in-out hover:stroke-[#FA939F] stroke-[#FFFFFE]"
+                >
+                  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                  <path d="M8 11l0 5"></path>
+                  <path d="M8 8l0 .01"></path>
+                  <path d="M12 16l0 -5"></path>
+                  <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                </svg>
               </motion.a>
             </Tooltip>
           </FramerMgBtn>
