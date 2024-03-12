@@ -27,7 +27,7 @@ export default function Projects() {
         </p>
 
         <div className="h-[60vh] sm:h-screen flex items-center justify-center">
-          <div className="w-[85%] sm:w-[70%] z-[99999] mb-52">
+          <div className="w-[85%] sm:w-[70%] z-[99999] mb-60">
             <HoverProject />
           </div>
         </div>
