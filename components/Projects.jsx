@@ -22,7 +22,7 @@ export default function Projects() {
         style={{ y: sm }}
         className="mt-0 sm:mt-56 pt-10 bg-[#FA939F]"
       >
-        <p className="text-3xl sm:text-5xl text-white pt-10 mb-20 sm:pt-20 sm:-mb-36 md:-mb-0 flex justify-center md:justify-center font-bold font-ubuntu text-foreground/80 mt-3">
+        <p className="text-3xl sm:text-5xl text-white pt-10 mb-20 sm:pt-20 sm:-mb-36 md:mb-40 flex justify-center md:justify-center font-bold font-ubuntu text-foreground/80 mt-3">
           Projects ✨
         </p>
 

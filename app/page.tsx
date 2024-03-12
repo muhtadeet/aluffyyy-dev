@@ -11,6 +11,9 @@ import { AnimatePresence } from "framer-motion";
 import Preloader from "../components/Preloader";
 import Test from "../components/Test";
 import { NavBar } from "@/components/NavBar";
+import CC from "../components/CC";
+import { Cursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,11 +46,22 @@ export default function Home() {
           {isLoading && <Preloader />}
         </AnimatePresence>
         {/* <Test /> */}
+        <Cursor isGelly={true} cursorBackgrounColor={"#FA939F"} />
+        {/* <CC /> */}
         {/* <Navbarmenu /> */}
-        <NavBar />
+        <div
+          data-cursor-size="100px"
+          data-cursor-exclusion
+          data-cursor-color="#004EA3"
+          id="stick-title"
+        >
+          <NavBar />
+        </div>
         <HomePage />
-        {/* <About /> */}
-        <Projects />
+        <div data-cursor-color="#BC97FC">
+          {/* <About /> */}
+          <Projects />
+        </div>
         <Contact />
         <FooterComp />
       </div>

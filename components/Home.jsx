@@ -97,6 +97,10 @@ export default function Home() {
           <FramerMgBtn>
             <Tooltip showArrow={true} placement="right" content="LinkedIn">
               <motion.a
+                data-cursor-size="100px"
+                data-cursor-exclusion
+                data-cursor-color="#004EA3"
+                id="stick-title"
                 variants={items}
                 viewport={{
                   once: true,
@@ -129,6 +133,10 @@ export default function Home() {
           <FramerMgBtn>
             <Tooltip showArrow={true} placement="right" content="GitHub">
               <motion.a
+                data-cursor-size="100px"
+                data-cursor-exclusion
+                data-cursor-color="#004EA3"
+                id="stick-title"
                 variants={items}
                 whileInView="animate"
                 viewport={{
@@ -158,6 +166,10 @@ export default function Home() {
           <FramerMgBtn>
             <Tooltip showArrow={true} placement="right" content="CV">
               <motion.a
+                data-cursor-size="100px"
+                data-cursor-exclusion
+                data-cursor-color="#004EA3"
+                id="stick-title"
                 variants={items}
                 whileInView="animate"
                 viewport={{

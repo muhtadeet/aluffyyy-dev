@@ -59,6 +59,7 @@ const TiltCard = () => {
           rotateY,
         }}
         className="relative"
+        data-cursor-color="#BC97FC"
       >
         <Phone />
       </motion.div>

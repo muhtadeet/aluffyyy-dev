@@ -24,6 +24,7 @@
     "prop-types": "^15.8.1",
     "react": "^18",
     "react-canvas-confetti": "^2.0.7",
+    "react-creative-cursor": "^1.2.7",
     "react-dom": "^18",
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.9.0",

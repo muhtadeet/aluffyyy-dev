@@ -29,6 +29,10 @@ function AboutText() {
       ref={container}
       style={{ y: sm }}
       className="flex justify-center relative items-center mt-20 mb-20 sm:mt-0 sm:mb-32 bg-transparent"
+      data-cursor-size="200px"
+      data-cursor-exclusion
+      data-cursor-color="#004EA3"
+      id="stick-title"
     >
       <div className="flex flex-col w-unit-5xl md:w-unit-9xl xl:w-unit-9xl">
         <motion.p
