@@ -67,3 +67,4 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
