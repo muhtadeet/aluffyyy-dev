@@ -14,6 +14,7 @@ import { NavBar } from "@/components/NavBar";
 import CC from "../components/CC";
 import { Cursor } from "react-creative-cursor";
 import "react-creative-cursor/dist/styles.css";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,6 +58,7 @@ export default function Home() {
         >
           <NavBar />
         </div>
+        <Hero />
         <HomePage />
         <div data-cursor-color="#BC97FC">
           {/* <About /> */}

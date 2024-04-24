@@ -43,7 +43,7 @@ export default function Contact() {
               <FramerMgBtn>
                 <a
                   target="_blank"
-                  href="mailto: muhtadeetaron@gmail.com"
+                  href="mailto: alifisalu@gmail.com"
                   rel="noreferrer"
                 >
                   Hit Me Up! 🙌
