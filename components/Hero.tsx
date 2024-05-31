@@ -159,7 +159,7 @@ const Hero = (props: Props) => {
           </Tooltip>
         </FramerMgBtn>
       </motion.div>
-      <div className="flex justify-center -mt-10">
+      {/* <div className="flex justify-center -mt-10">
         <Image
           className="absolute w-[92%] sm:w-[30%] -mt-5 md:-mt-40 md:w-[40%] xl:-mt-32 xl:w-[35%] 2xl:w-[40%] 2xl:-mt-20 z-10 drop-shadow-[0_0_7px_rgba(0,0,0,0.55)]"
           src={Alu}
@@ -219,7 +219,7 @@ const Hero = (props: Props) => {
             Mustakim Islam Alif
           </motion.p>
         </motion.div>
-      </div>
+      </div> */}
     </div>
   );
 };

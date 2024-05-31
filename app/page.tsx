@@ -58,7 +58,7 @@ export default function Home() {
         >
           <NavBar />
         </div>
-        <Hero />
+        {/* <Hero /> */}
         <HomePage />
         <div data-cursor-color="#BC97FC">
           {/* <About /> */}
