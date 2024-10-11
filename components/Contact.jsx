@@ -18,7 +18,7 @@ export default function Contact() {
         ref={container}
         style={{ y: sm }}
         id="contact"
-        className="h-unit-8xl md:h-unit-18 xl:h-96 xl:mt-20 ml-5 sm:ml-0 flex flex-row justify-around"
+        className="h-unit-8xl md:h-unit-18 xl:h-[32rem] xl:mt-20 ml-5 sm:ml-0 flex flex-row justify-around"
       >
         <motion.div style={{ y: smx }} className="flex flex-col">
           <h3 className="mt-72 text-6xl md:text-8xl xl:text-9xl md:mt-20 xl:mt-36 font-generalSans text-white">
@@ -30,10 +30,10 @@ export default function Contact() {
             <a
               className="ml-2"
               target="_blank"
-              href="mailto: alifisalu@gmail.com"
+              href="mailto: mi.aliifff@gmail.com"
               rel="noreferrer"
             >
-              alifisalu@gmail.com
+              mi.aliifff@gmail.com
             </a>
           </p>
         </motion.div>
@@ -43,7 +43,7 @@ export default function Contact() {
               <FramerMgBtn>
                 <a
                   target="_blank"
-                  href="mailto: alifisalu@gmail.com"
+                  href="mailto: mi.aliifff@gmail.com"
                   rel="noreferrer"
                 >
                   Hit Me Up! 🙌

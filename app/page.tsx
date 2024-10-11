@@ -53,7 +53,7 @@ export default function Home() {
         <div
           data-cursor-size="100px"
           data-cursor-exclusion
-          data-cursor-color="#004EA3"
+          data-cursor-color="#005c77"
           id="stick-title"
         >
           <NavBar />

@@ -102,7 +102,7 @@ const Hero = (props: Props) => {
             <motion.a
               data-cursor-size="100px"
               data-cursor-exclusion
-              data-cursor-color="#004EA3"
+              data-cursor-color="#005c77"
               id="stick-title"
               variants={items}
               whileInView="animate"
@@ -122,7 +122,7 @@ const Hero = (props: Props) => {
             <motion.a
               data-cursor-size="100px"
               data-cursor-exclusion
-              data-cursor-color="#004EA3"
+              data-cursor-color="#005c77"
               id="stick-title"
               variants={items}
               whileInView="animate"
@@ -143,7 +143,7 @@ const Hero = (props: Props) => {
             <motion.a
               data-cursor-size="100px"
               data-cursor-exclusion
-              data-cursor-color="#004EA3"
+              data-cursor-color="#005c77"
               id="stick-title"
               variants={items}
               viewport={{

@@ -10,14 +10,40 @@ const config: Config = withMT({
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      ubuntu: ["Ubuntu", "sans-serif"],
-      lato: ["Lato", "sans-serif"],
-      generalSans: ["General Sans", "sans-serif"],
-    },
-    extend: {},
+  	fontFamily: {
+  		ubuntu: ["Ubuntu", "sans-serif"],
+  		lato: ["Lato", "sans-serif"],
+  		generalSans: ["General Sans", "sans-serif"]
+  	},
+  	extend: {
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		colors: {
+  			'color-1': '#FA939F',
+  			'color-2': '#5046e6',
+  			'color-3': '#FA939F',
+  			'color-4': '#FA939F',
+  			'color-5': '#5046e6'
+  		},
+  		animation: {
+  			rainbow: 'rainbow var(--speed, 2s) infinite linear'
+  		},
+  		keyframes: {
+  			rainbow: {
+  				'0%': {
+  					'background-position': '0%'
+  				},
+  				'100%': {
+  					'background-position': '200%'
+  				}
+  			}
+  		}
+  	}
   },
-  darkMode: "class",
-  plugins: [nextui()],
+  darkMode: ["class", "class"],
+  plugins: [nextui(), require("tailwindcss-animate")],
 });
 export default config;
